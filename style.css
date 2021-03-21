@@ -26,11 +26,12 @@ body {
     height: 180vh;
     background-color: #fddbd1;
     position: relative;
-    height: calc(var(--vh, 1vh) * 180);
+    
     
 }
 .main{
     height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
 }
 
 .bg {
