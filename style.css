@@ -25,16 +25,18 @@ html {
 body {
     width: 100%;
     height: 180vh;
+    height: -webkit-fill-available;
     background-color: #fddbd1;
     position: relative;
     
 }
 .main {
-    min-height: 100vh;
+   height: 100vh;
 }
 .bg {
     width: 100%;
     height: 85vh;
+    height: calc(-webkit-fill-available * 0.5);
     background-image: url(./images/bg4.jpg);
     background-size: cover;
     background-position: center;
@@ -64,6 +66,7 @@ body {
 .welcome {
     width: 100%;
     height: 15vh;
+    height: calc(-webkit-fill-available * 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
