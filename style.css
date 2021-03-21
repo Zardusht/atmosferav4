@@ -23,16 +23,16 @@ html {
 }
 body {
     width: 100%;
-    min-height: 180vh;
-    min-height: -webkit-fill-available;
+    max-height: 180vh;
+    max-height: -webkit-fill-available;
     background-color: #fddbd1;
     position: relative;
     
 }
 .bg {
     width: 100%;
-    min-height: 85vh;
-    min-height: -webkit-fill-available;
+    max-height: 85vh;
+    max-height: -webkit-fill-available;
     background-image: url(./images/bg4.jpg);
     background-size: cover;
     background-position: center;
@@ -61,8 +61,8 @@ body {
   }
 .welcome {
     width: 100%;
-    min-height: 15vh;
-    min-height: -webkit-fill-available;
+    max-height: 15vh;
+    max-height: -webkit-fill-available;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,16 +72,16 @@ body {
 }
 .contacts {
     width: 100%;
-    min-height: 80vh;
-    min-height: -webkit-fill-available;
+    max-height: 80vh;
+    max-height: -webkit-fill-available;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
 footer {
     width: 100%;
-    min-height: 5vh;
-    min-height: -webkit-fill-available;
+    max-height: 5vh;
+    max-height: -webkit-fill-available;
     text-align: center;
     font-size: 24px;
     line-height: 5vh;
