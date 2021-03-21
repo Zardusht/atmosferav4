@@ -20,11 +20,11 @@ textarea {overflow:auto;}
 html {
     scroll-behavior: smooth;
     font-family: 'Montserrat', sans-serif;
+    height: -webkit-fill-available;
 }
 body {
     width: 100%;
-    min-height: 180vh;
-    min-height: -webkit-fill-available;
+    height: 180vh;
     background-color: #fddbd1;
     position: relative;
     
