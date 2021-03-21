@@ -23,10 +23,15 @@ html {
 }
 body {
     width: 100%;
-    height: 180vh;
+    min-height: 180vh;
+    min-height: -webkit-fill-available;
     background-color: #fddbd1;
     position: relative;
     
+}
+.main {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
 }
 .bg {
     width: 100%;
