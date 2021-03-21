@@ -32,7 +32,6 @@ body {
 }
 .main {
     height: 100vh;
-    height: -webkit-fill-available;
 }
 .bg {
     width: 100%;
