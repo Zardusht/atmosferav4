@@ -171,8 +171,8 @@ h1 {
         height: 173vh;
     }
     .main {
-        max-height: 100vh;
-        max-height: -webkit-fill-available;
+        height: 100vh;
+        height: -webkit-fill-available;
     }
     html {
         height: -webkit-fill-available;
