@@ -191,7 +191,6 @@ h1 {
     }
     .main {
         height: 100vh;
-        height: -webkit-fill-available;
     }
     html {
         height: -webkit-fill-available;
