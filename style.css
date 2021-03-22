@@ -135,6 +135,25 @@ h1 {
         line-height: 35px;
     }
 }
+@media only screen and (max-width: 1024px) {
+    .bg {
+        height: 78vh;
+    }
+    .contacts {
+        height: 73vh;
+        margin-top: -7vh;
+    }
+    body {
+        height: 173vh;
+    }
+    .main {
+        height: 100vh;
+        height: -webkit-fill-available;
+    }
+    html {
+        height: -webkit-fill-available;
+      }
+}
 @media only screen and (max-width: 540px) {
     .text-area {
         width: 100%;
